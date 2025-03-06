@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #90D7FF;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#faculty {
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+
+.author-date {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    color: gray;
+}
+
+.hrline {
+    border: 1px solid black;
+    margin: 20px 0px 0px;
+}
+
+#line {
+    margin-top: 40px;
+}
+
+.bannerhr {
+    align-items: center;
+    background-color: rgb(175, 175, 175);
+    width: 900px;
+    height: 400px;
+    color: gray;
+    border-radius: 10px;
+}
+
+.bannermain {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.description {
+    padding-right: 20px;
+    width: 50%;
+}
+
+.descript {
+    line-height: 25px;
+    font-size: 19px;
+}
+
+.comments-section {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 750px;
+}
+
+.comments-section h2 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.like-dislike {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.like-count {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.custom-line {
+    border: 1px solid;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.textcool {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+#similar {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+
+.blogdate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.newblog {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 290px;
+    position: relative;
+}
+
+.imgnew {
+    background-color: rgb(173, 173, 173);
+    width: 290px;
+    height: 180px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.namefacult {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.name-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.newblog h3 {
+    margin-top: 0px;
+}
+
+.name-date p {
+    margin-top: 8px;
+}
+
+.blogdate a {
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+.newblog, .blog-card {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+.newblog:hover, .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Дизайн кнопки "Надіслати" */
+.submit-comment {
+    background-color: #5da8d3; /* Відтінок синього з загальної гами */
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.submit-comment:hover {
+    background-color: #3c7ca5; /* Темніший відтінок при наведенні */
+}
+
+/* Дизайн секції коментарів */
+.comments-section {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 750px;
+}
+
+footer {
+    background: #90D7FF;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
